@@ -20,7 +20,7 @@ services:
     links:
       - mariadb
     ports:
-      - "8080:80"
+      - "8081:81"
     extra_hosts:
       - "docker.chamilo.net:127.0.0.1"
     labels:
